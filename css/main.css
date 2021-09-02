@@ -1,0 +1,39 @@
+/*
+Note for text colors:
+
+1. "Verified Graduate" has the same color as the person's name with 50% opacity
+2. Review paragraphs inside the quotations have the same color as well, 
+but are at 70% opacity*/
+body {
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+#container1 {
+  background: url(../images/bg-pattern-quotation.svg) no-repeat #7541c8;
+  background-position: right;
+}
+
+.profile-info {
+  height: 4rem;
+}
+
+.profile-info .picture {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  height: 90%;
+}
+
+.profile-info #profile-name {
+  height: 100%;
+  color: white;
+}
+
+.profile-info #profile-name .names {
+  font-size: 1rem;
+}
+
+.profile-info #profile-name .verified {
+  opacity: 50%;
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,34 @@
+@import "variables";
+
+// USAR IF PARA MEDIA QUERIES SASS
+
+// Container1
+#container1 {
+  background: url(../images/bg-pattern-quotation.svg)
+  no-repeat $Moderate-violet;
+  background-position: right;
+}
+
+// PROFILE INFO
+.profile-info {
+  height: 4rem;
+
+  .picture {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    height: 90%;
+  }
+  
+  #profile-name {
+    height: 100%;
+    color: white;
+  
+    .names {
+      font-size: 1rem;
+    }
+    .verified {
+      opacity: 50%;
+      font-size: 0.9rem;
+    }
+  }
+}
+
