@@ -2,11 +2,40 @@
 
 // USAR IF PARA MEDIA QUERIES SASS
 
+body {
+  height: 100vh;
+}
+
+main {
+
+  #main-container2 {
+    gap: 30px;
+  }
+}
+
+
 // Container1
 #container1 {
   background: url(../images/bg-pattern-quotation.svg)
   no-repeat $Moderate-violet;
-  background-position: right;
+  background-position: 80% 0;
+}
+#container2 {
+  background: $Very-dark-grayish-blue;
+}
+#container3, #container5 {
+  background-color: white;
+}
+#container4 {
+  background-color: $Very-dark-blackish-blue;
+}
+
+.testimonials {
+  padding: 10px 31px 35px;
+
+  .review-top {
+    padding-bottom: 5px;
+  }
 }
 
 // PROFILE INFO
@@ -32,3 +61,12 @@
   }
 }
 
+// REVIEWS
+.review-top {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.review-bottom {
+  font-size: 0.88rem;
+  line-height: 1.2rem;
+}

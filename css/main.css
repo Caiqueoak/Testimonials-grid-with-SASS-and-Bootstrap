@@ -6,12 +6,41 @@ Note for text colors:
 but are at 70% opacity*/
 body {
   font-size: 13px;
+  background-color: #ecf2f8;
   font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+main #main-container2 {
+  gap: 30px;
 }
 
 #container1 {
   background: url(../images/bg-pattern-quotation.svg) no-repeat #7541c8;
-  background-position: right;
+  background-position: 80% 0;
+}
+
+#container2 {
+  background: #48556a;
+}
+
+#container3, #container5 {
+  background-color: white;
+}
+
+#container4 {
+  background-color: #19212e;
+}
+
+.testimonials {
+  padding: 10px 31px 35px;
+}
+
+.testimonials .review-top {
+  padding-bottom: 5px;
 }
 
 .profile-info {
@@ -35,5 +64,15 @@ body {
 .profile-info #profile-name .verified {
   opacity: 50%;
   font-size: 0.9rem;
+}
+
+.review-top {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.review-bottom {
+  font-size: 0.88rem;
+  line-height: 1.2rem;
 }
 /*# sourceMappingURL=main.css.map */
