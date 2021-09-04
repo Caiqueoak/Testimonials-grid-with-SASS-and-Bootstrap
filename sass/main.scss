@@ -4,12 +4,18 @@
 
 body {
   height: 100vh;
+  background-color: $Light-gray;
 }
 
 main {
+  column-gap: 30px;
+  row-gap: 30px;
 
-  #main-container2 {
-    gap: 30px;
+  #first-container {
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+  #second-container {
   }
 }
 
@@ -23,7 +29,7 @@ main {
 #container2 {
   background: $Very-dark-grayish-blue;
 }
-#container3, #container5 {
+#container3, #second-container {
   background-color: white;
 }
 #container4 {

@@ -14,6 +14,7 @@ Note for text colors:
 but are at 70% opacity*/
 
 body {
+  box-sizing: border-box;
   font-size: 13px;
   background-color: $Light-grayish-blue;
   // weights 500, 600

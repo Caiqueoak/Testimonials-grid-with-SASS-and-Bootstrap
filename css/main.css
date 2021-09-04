@@ -5,6 +5,7 @@ Note for text colors:
 2. Review paragraphs inside the quotations have the same color as well, 
 but are at 70% opacity*/
 body {
+  box-sizing: border-box;
   font-size: 13px;
   background-color: #ecf2f8;
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -12,10 +13,17 @@ body {
 
 body {
   height: 100vh;
+  background-color: #cfcfcf;
 }
 
-main #main-container2 {
-  gap: 30px;
+main {
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+main #first-container {
+  row-gap: 30px;
+  column-gap: 30px;
 }
 
 #container1 {
@@ -27,7 +35,7 @@ main #main-container2 {
   background: #48556a;
 }
 
-#container3, #container5 {
+#container3, #second-container {
   background-color: white;
 }
 
