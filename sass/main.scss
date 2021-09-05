@@ -1,78 +1,82 @@
-@import "variables";
+/* TODO
+- REFACTOR THE CODE
+- ADD FOOTER
+*/
 
-// USAR IF PARA MEDIA QUERIES SASS
+@import "variables";
 
 body {
   height: 100vh;
   background-color: $Light-gray;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 main {
-  column-gap: 30px;
-  row-gap: 30px;
+  column-gap: 20px;
+  row-gap: 20px;
 
   #first-container {
-    row-gap: 30px;
-    column-gap: 30px;
+    row-gap: 20px;
+    column-gap: 20px;
+
+    #container1 {
+      background: url(../images/bg-pattern-quotation.svg) no-repeat
+        $Moderate-violet;
+      background-position: 80% 0;
+    }
+    #container2 {
+      background: $Very-dark-grayish-blue;
+    }
+    #container3 {
+      background-color: white;
+    }
+    #container4 {
+      background-color: $Very-dark-blackish-blue;
+    }
   }
   #second-container {
+    background-color: white;
   }
-}
+  .testimonials {
+    padding: 10px 31px 35px;
 
+    .profile-info {
+      height: 4rem;
 
-// Container1
-#container1 {
-  background: url(../images/bg-pattern-quotation.svg)
-  no-repeat $Moderate-violet;
-  background-position: 80% 0;
-}
-#container2 {
-  background: $Very-dark-grayish-blue;
-}
-#container3, #second-container {
-  background-color: white;
-}
-#container4 {
-  background-color: $Very-dark-blackish-blue;
-}
+      .picture {
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        height: 90%;
+      }
 
-.testimonials {
-  padding: 10px 31px 35px;
+      #profile-name {
+        height: 100%;
+        color: white;
 
-  .review-top {
-    padding-bottom: 5px;
-  }
-}
-
-// PROFILE INFO
-.profile-info {
-  height: 4rem;
-
-  .picture {
-    border: 4px solid rgba(255, 255, 255, 0.3);
-    height: 90%;
-  }
-  
-  #profile-name {
-    height: 100%;
-    color: white;
-  
-    .names {
-      font-size: 1rem;
+        .names {
+          font-size: 1rem;
+        }
+        .verified {
+          opacity: 50%;
+          font-size: 0.9rem;
+        }
+      }
     }
-    .verified {
-      opacity: 50%;
-      font-size: 0.9rem;
+
+    // REVIEWS
+    .review-top {
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      padding-bottom: 5px;
+    }
+    .review-bottom {
+      font-size: 0.88rem;
+      line-height: 1.2rem;
     }
   }
 }
 
-// REVIEWS
-.review-top {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.review-bottom {
-  font-size: 0.88rem;
-  line-height: 1.2rem;
+footer {
+  font-size: 1rem;
 }

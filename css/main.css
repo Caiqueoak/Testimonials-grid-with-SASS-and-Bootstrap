@@ -1,3 +1,7 @@
+/* TODO
+- REFACTOR THE CODE
+- ADD FOOTER
+*/
 /*
 Note for text colors:
 
@@ -16,71 +20,80 @@ body {
   background-color: #cfcfcf;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 main {
-  column-gap: 30px;
-  row-gap: 30px;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 main #first-container {
-  row-gap: 30px;
-  column-gap: 30px;
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
-#container1 {
+main #first-container #container1 {
   background: url(../images/bg-pattern-quotation.svg) no-repeat #7541c8;
   background-position: 80% 0;
 }
 
-#container2 {
+main #first-container #container2 {
   background: #48556a;
 }
 
-#container3, #second-container {
+main #first-container #container3 {
   background-color: white;
 }
 
-#container4 {
+main #first-container #container4 {
   background-color: #19212e;
 }
 
-.testimonials {
+main #second-container {
+  background-color: white;
+}
+
+main .testimonials {
   padding: 10px 31px 35px;
 }
 
-.testimonials .review-top {
-  padding-bottom: 5px;
-}
-
-.profile-info {
+main .testimonials .profile-info {
   height: 4rem;
 }
 
-.profile-info .picture {
+main .testimonials .profile-info .picture {
   border: 4px solid rgba(255, 255, 255, 0.3);
   height: 90%;
 }
 
-.profile-info #profile-name {
+main .testimonials .profile-info #profile-name {
   height: 100%;
   color: white;
 }
 
-.profile-info #profile-name .names {
+main .testimonials .profile-info #profile-name .names {
   font-size: 1rem;
 }
 
-.profile-info #profile-name .verified {
+main .testimonials .profile-info #profile-name .verified {
   opacity: 50%;
   font-size: 0.9rem;
 }
 
-.review-top {
+main .testimonials .review-top {
   font-size: 1.3rem;
   line-height: 1.5rem;
+  padding-bottom: 5px;
 }
 
-.review-bottom {
+main .testimonials .review-bottom {
   font-size: 0.88rem;
   line-height: 1.2rem;
+}
+
+footer {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
