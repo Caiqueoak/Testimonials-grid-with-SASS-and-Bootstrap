@@ -57,7 +57,7 @@ main #second-container #container5 {
 }
 
 main .testimonials, main #second-container #container5 {
-  padding: 10px 29px 25px;
+  padding: 10px 29px 20px;
   border-radius: 7px !important;
   box-shadow: 0 0 3px -1px black;
 }
@@ -89,7 +89,7 @@ main .testimonials .review-top, main #second-container #container5 .review-top {
   font-weight: 600;
   font-size: 1.3rem;
   line-height: 1.5rem;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 main .testimonials .review-bottom, main #second-container #container5 .review-bottom {
