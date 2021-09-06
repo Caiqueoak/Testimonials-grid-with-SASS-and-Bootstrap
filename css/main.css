@@ -1,13 +1,10 @@
-/* TODO
-- REFACTOR THE CODE
-- ADD FOOTER
-*/
 /*
 Note for text colors:
 
 1. "Verified Graduate" has the same color as the person's name with 50% opacity
 2. Review paragraphs inside the quotations have the same color as well, 
-but are at 70% opacity*/
+but are at 70% opacity
+*/
 body {
   box-sizing: border-box;
   font-size: 13px;
@@ -17,7 +14,7 @@ body {
 
 body {
   height: 100vh;
-  background-color: #cfcfcf;
+  background-color: #ecf2f8;
 }
 
 body::-webkit-scrollbar {
@@ -55,40 +52,47 @@ main #second-container {
   background-color: white;
 }
 
-main .testimonials {
-  padding: 10px 31px 35px;
+main #second-container #container5 {
+  box-shadow: none !important;
 }
 
-main .testimonials .profile-info {
+main .testimonials, main #second-container #container5 {
+  padding: 10px 29px 25px;
+  border-radius: 7px !important;
+  box-shadow: 0 0 3px -1px black;
+}
+
+main .testimonials .profile-info, main #second-container #container5 .profile-info {
   height: 4rem;
 }
 
-main .testimonials .profile-info .picture {
+main .testimonials .profile-info .picture, main #second-container #container5 .profile-info .picture {
   border: 4px solid rgba(255, 255, 255, 0.3);
   height: 90%;
 }
 
-main .testimonials .profile-info #profile-name {
+main .testimonials .profile-info #profile-name, main #second-container #container5 .profile-info #profile-name {
   height: 100%;
   color: white;
 }
 
-main .testimonials .profile-info #profile-name .names {
+main .testimonials .profile-info #profile-name .names, main #second-container #container5 .profile-info #profile-name .names {
   font-size: 1rem;
 }
 
-main .testimonials .profile-info #profile-name .verified {
+main .testimonials .profile-info #profile-name .verified, main #second-container #container5 .profile-info #profile-name .verified {
   opacity: 50%;
   font-size: 0.9rem;
 }
 
-main .testimonials .review-top {
+main .testimonials .review-top, main #second-container #container5 .review-top {
+  font-weight: 600;
   font-size: 1.3rem;
   line-height: 1.5rem;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
-main .testimonials .review-bottom {
+main .testimonials .review-bottom, main #second-container #container5 .review-bottom {
   font-size: 0.88rem;
   line-height: 1.2rem;
 }
